@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="methods" thread-count="5">
+	<test name="Login">
+		<classes>
+			<class name="com.orangehrm.tests.LoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Employee List">
+		<classes>
+			<class name="com.orangehrm.tests.AddEmployeeTest"></class>
+		</classes>
+	</test>
+</suite>
